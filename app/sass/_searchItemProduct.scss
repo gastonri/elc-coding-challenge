@@ -1,0 +1,37 @@
+div.search-item-product {
+    display: flex;
+    margin: 16px;
+
+    img.product-image {
+        height: 115px;
+        margin: 0 10px;
+        width: auto;
+    }
+
+    div.info-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+    }
+
+    span.product {
+        &-title {
+            color: rgba(0, 0, 0, 0.87);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        &-description {
+            color: rgba(0, 0, 0, 0.54);
+            font-style: italic;
+            font-weight: 400;
+            margin: 8px 0;
+        }
+
+        &-price {
+            color: rgba(0, 0, 0, 0.8);
+            font-size: 24px;
+            font-weight: 300;
+        }
+    }
+}
