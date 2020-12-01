@@ -48,7 +48,6 @@ class Menu extends React.Component {
 
             clearTimeout(timer);
             timer = setTimeout(() => {
-                console.log('adentro del callback');
                 cb.apply(context, args);
             }, delay);
         };
